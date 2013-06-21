@@ -35,7 +35,7 @@ public class onCommand extends JavaPlugin {
             player.teleport(new Location(Bukkit.getWorld("world"), 80, 142, 11)); }
             return true;
         }
-        if(cmd.getName().equalsIgnoreCase("Wild")){       
+        if(cmd.getName().equalsIgnoreCase("wild")){       
             player.sendMessage(ChatColor.WHITE + "[" + ChatColor.GOLD + ChatColor.BOLD + "EC" + ChatColor.WHITE + "] " + "Now warping to the Wilderness!");
             player.teleport(new Location(Bukkit.getWorld("world"), 80, 142, 11)); } //Will change this location but idk what it is atm
             return true;
