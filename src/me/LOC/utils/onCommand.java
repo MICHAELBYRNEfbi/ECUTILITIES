@@ -9,7 +9,11 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.entity.Player;
- 
+/*
+EliteCraft Utikities by
+MICHAELBYRNRfbi && Christian_Percy
+Includes /shop ++ /warp ++ /clearchat
+*/
 public class onCommand extends JavaPlugin {
     @Override
         public void onEnable(){
